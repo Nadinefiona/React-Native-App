@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "QuickStay",
+    "slug": "QuickStay",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/cover.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/cover.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.hicode.io.QuickStay"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/cover.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.hicode.io.QuickStay"
+    },
+    "web": {
+      "favicon": "./assets/cover.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "98d1bafd-18c0-425c-ac48-5be7c1b6ca4c"
+      }
+    }
+  }
+}
